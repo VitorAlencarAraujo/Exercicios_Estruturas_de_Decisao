@@ -28,7 +28,7 @@ public class imc {
         double imc = peso / (altura*altura);
 
         String classificacao;
-        if (imc < 16) classificacao = "Magreza grave";
+        if (imc < 16) classificacao = "Magreza grave"; //condição e atribuição na mesma linha
         else if (imc < 17) classificacao = "Magreza moderada";
         else if (imc < 18.5) classificacao = "Magreza leve";
         else if (imc < 25) classificacao = "Saudável";
