@@ -33,7 +33,7 @@ public class tipo_triangulo {
         String classificacao;
 
         if (a + b > c && a + c > b && b + c > a) {
-            
+
             if (a == b && b == c) {
                 classificacao = "Equilátero";
             } else if (a == b || b == c || a == c) {
